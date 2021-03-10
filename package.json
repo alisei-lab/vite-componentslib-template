@@ -1,0 +1,32 @@
+{
+  "name": "vite-componentslib-template",
+  "version": "0.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/faravelkit.umd.js",
+  "module": "./dist/faravelkit.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/faravelkit.es.js",
+      "require": "./dist/faravelkit.umd.js"
+    },
+    "./style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.0.5"
+  }
+}
