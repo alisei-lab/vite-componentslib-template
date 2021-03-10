@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      name: 'Faravel-Kit',
+      name: 'vite-componentslib-template',
       entry: path.resolve(__dirname, 'src/main.js'),
     },
     rollupOptions: {
