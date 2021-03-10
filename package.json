@@ -4,12 +4,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/faravelkit.umd.js",
-  "module": "./dist/faravelkit.es.js",
+  "main": "./dist/vite-componentslib-template.umd.js",
+  "module": "./vite-componentslib-template.es.js",
   "exports": {
     ".": {
-      "import": "./dist/faravelkit.es.js",
-      "require": "./dist/faravelkit.umd.js"
+      "import": "./dist/vite-componentslib-template.es.js",
+      "require": "./dist/vite-componentslib-template.umd.js"
     },
     "./style.css": {
       "import": "./dist/style.css",
