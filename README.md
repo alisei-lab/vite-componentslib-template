@@ -3,6 +3,6 @@ This is a very basic starter template to create a Vue components library using V
 
 ## Usage
 
-  bash
+```bash
   git clone https://github.com/alisei-lab/vite-componentslib-template.git
-
+```
